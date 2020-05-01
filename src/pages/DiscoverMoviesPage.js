@@ -37,7 +37,8 @@ const rendermoviedata = () =>
     if (moviedata === false)
         return ""
     else return moviedata.map(movie => {
-        return <li>{movie.Title}</li>
+        return <li>{movie.Title}<img src={movie.Poster} alt="movieposter"></img></li>
+
 })}
 
   return (
