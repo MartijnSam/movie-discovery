@@ -8,8 +8,9 @@ export default function NavBar() {
       <div className="navbar">
         
         <NavLink exact={true} activeStyle={{color:'red'}} to="/">Home  </NavLink> {""}    
-        <NavLink activeStyle={{color:'red'}} to="/about">About  </NavLink>{""}
-        <NavLink activeStyle={{color:'red'}} to="/discover">Discover  </NavLink>{""}      
+        <NavLink exact={true} activeStyle={{color:'red'}} to="/about">About  </NavLink>{""}
+        <NavLink exact={true} activeStyle={{color:'red'}} to="/discover">Discover  </NavLink>{""}
+           
         
       </div>
     );

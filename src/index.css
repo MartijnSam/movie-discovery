@@ -37,3 +37,7 @@ code {
   background-color: rgb(140, 150, 170);
   font-size: 20px;
 }
+
+.movie{
+  display: inline-block;
+}
